@@ -48,7 +48,7 @@ function pointThree2() {
 }
 
 let winningTeam = document.getElementById("winning_team");
-winningTeam.textContent = "Let's Go"
+winningTeam.textContent = "Let's start!"
 
 function winning() {
     if(home > away) {
@@ -67,5 +67,5 @@ function newGame() {
     away = 0;
     pointHome.textContent = home;
     pointAway.textContent = away;
-    winningTeam.textContent = "Let's Go"
+    winningTeam.textContent = "Let's start!"
 }
