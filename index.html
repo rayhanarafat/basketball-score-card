@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="winning_team"></h1>
+        <div class="flex">
+            <div class="inner">
+                <h2>Home</h2>
+                <div class="box">
+                    <h3 id="point_home"></h3>
+                </div>
+                <div class="points">
+                    <button onclick="pointOne()">+1</button>
+                    <button onclick="pointTwo()">+2</button>
+                    <button onclick="pointThree()">+3</button>
+                </div>
+            </div>
+            <div class="inner">
+                <h2>Away</h2>
+                <div class="box">
+                    <h3 id="point_away"></h3>
+                </div>
+                <div class="points">
+                    <button onclick="pointOne2()">+1</button>
+                    <button onclick="pointTwo2()">+2</button>
+                    <button onclick="pointThree2()">+3</button>
+                </div>
+            </div>
+        </div>
+        <button onclick="newGame()">New Match</button>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

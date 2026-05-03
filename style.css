@@ -1,0 +1,52 @@
+
+
+.container {
+    width: 50%;
+    background-color: navy;
+    margin: auto;
+    color: #fff ;
+    padding: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inner {
+    text-align: center;
+    width: 50%;
+    
+}
+
+.box {
+    background-color: black;
+    width: 80%;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    color: red;
+}
+
+
+.points {
+    margin-top: 20px;
+}
+.points button {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    padding:10px;
+    margin-right: 5px;
+}
+
+.points button:hover {
+    background: #fff;
+    color: #000;
+    border-color: #fff;
+}
