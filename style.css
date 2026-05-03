@@ -37,7 +37,7 @@
 .points {
     margin-top: 20px;
 }
-.points button {
+.points button, .new_match {
     background-color: transparent;
     color: #fff;
     border: 1px solid #fff;
@@ -45,7 +45,7 @@
     margin-right: 5px;
 }
 
-.points button:hover {
+.points button:hover, .new_match:hover{
     background: #fff;
     color: #000;
     border-color: #fff;
